@@ -1,0 +1,107 @@
+/* --cor-banco: #f6f6f6; */
+/* --cor-fundo: #8b8b8b; */
+/* --cor-preto: #333333; */
+/* --cor-cinza: #404040; */
+/* --cor-sekai: #E93236; */
+/* --cor-vermelhoE: #990100; */
+/* --cor-vermelhoC: #b90504; */
+
+
+/* Global */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #222;
+    font-family: 'Roboto', sans-serif
+}
+
+ul {
+    list-style: none;
+}
+
+/* Fonts */
+h3,
+.price {
+    font-family: 'Reggae One', cursive;
+    color: #f6f6f6;
+}
+
+h2 {
+    font-family: 'Roboto Serif';
+    text-transform: uppercase;
+}
+
+/* Header */
+header {
+    padding: 32px 0;
+    text-align: center;
+    color: #9b9b9b;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+header,
+section {
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+header h1 {
+    color: #f6f6f6;
+    margin-bottom: 4px;
+    font-family: 'Reggae One', cursive;
+    font-size: 28px;
+    line-height: 33px;
+}
+
+header h1 span {
+    color: #EE0400;
+}
+
+.subtitle {
+    display: block;
+    font-size: large;
+}
+
+/* Section */
+section {
+    margin-bottom: 24px;
+}
+
+section h2 {
+    color: black;
+    background-color: #FF3936;
+    padding: 8px 16px;
+    text-align: center;
+    margin-bottom: 24px;
+    font-size: 18px;
+}
+
+/* Item Listas */
+ul li {
+    color: #9b9b9b;
+    margin-bottom: 16px;
+    display: flex;
+    justify-content: space-between;
+}
+
+li .details {
+    max-width: 220px;
+}
+
+.details h3 {
+    margin-bottom: 8px;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.details p {
+    line-height: 21px;
+}
+
+.price {
+    color: #f6f6f6;
+}
